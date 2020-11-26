@@ -15,7 +15,22 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  
+  {:railroads => {
+    :pieces => 4, 
+    :rent_in_dollars => {
+      :one_piece => 25, 
+      :two_pieces => 50,
+      :three_pieces => 100,
+      :four_pieces => 200
+    }, 
+    :names => {
+      :reading_railraod => {},
+      :pennsylvania_railroad => {},
+      :b_and_o_railroad => {},
+      :shortline_railroad => {}
+    }
+   }
+  }
 end
 
 def monopoly_with_fourth_tier
